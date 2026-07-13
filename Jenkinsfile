@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+		tool name: 'maven01', type: 'maven'
     stages {
 	//stage('Checkout') {
       //      steps {
